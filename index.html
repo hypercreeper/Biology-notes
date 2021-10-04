@@ -1,2 +1,21 @@
 <html>
+<body>
+<script>
+var b = "<h1 id='p' hidden>gEt RiCk RoLlEd!</h1><br><video id='v' autoplay src='http://www.lasesp.com/vid.mp4' onplay='setTimeout(function() {document.getElementById(\"p\").hidden = false;},1000);'></video>";
+</script>
+<style>
+button:hover {
+background-color: lime;
+}
+button {
+background-color: blue;
+}
+</style>
+<button onclick="activate()" style="height: 40px; width: 100%; border: none; cursor: pointer; transition-duration: 0.2s;">Click To View Notes (This is only for security reasons)</button>
+<script>
+function activate() {
+document.write(b);
+}
+</script>
+</body>
 </html>
